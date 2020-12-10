@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Office of Diversity & International Programs</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="fixed-top navbar navbar-expand-lg navbar-custom" style="background-color: #923d41;">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-icon" aria-controls="menu-icon" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a href="index.html"><img class="logo" src="img/ashesiLogo.png" alt="Ashesi Logo"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="menu-icon">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item onsite">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="staff.html">Staff</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="abroad.html">Study Abroad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./leadership/leadership.html" >Partnerships</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./sprint-1/donate.html">Programs</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="intro">
+            <div class="container">
+                <h1 style="color: white;"><center>Study at Ashesi; Explore the world</center></h1>
+                <p class="long-text" style="color: white;">The Office of Diversity and International Programs (ODIP) coordinates and promotes all external collaborations and partnerships of the University as well as driving initiatives and programs aimed at advancing cross-cultural learning, awareness and acceptance of diversity and inclusion as a core tenant of the University.</p>
+                <center>
+                    <a class="Bmoved active" href="#section" target="">Read More</a>
+                    <a class="Bmoved active" href="https://www.youtube.com/watch?v=qUSzgLthv8c" target="_blank">Watch video</a>
+                </center>
+            </div>
+        </div>
+        <a class="ct-btn-scroll ct-js-btn-scroll" href="#section"><img alt="Arrow Down Icon" src="https://raw.githubusercontent.com/solodev/scroll-down-anchor/master/images/arrow-down-1.png"></a>
+    </header>
+    <section class="section-tutors js--section-features" id="section">
+        <div class="container">
+            <h2 style="margin-top: 30px;"><center>Study Abroad & International Programs</center></h2>
+            <p class="long-text">Ashesi continues to form partnerships with like-minded institutions to allow students to experience learning in different cultures around the world. Our partnerships also extend to organizations that host global learning events or provide opportunities for young people around the world to connect for peer learning.</p>
+            <hr>
+            <h2><center>Providing a Safe Campus Climate</center></h2>
+            <p class="long-text">Ashesi is a zero-tolerance sexual misconduct campus and is committed to providing a safe and conducive environment to learn and engage in meaningful work.  The ODIP ensures that all members of the community are aware of the institutional policies governing all forms of sexual abuse - sexual assault, nonconsensual sexual relationships and harassment - at Ashesi through mandatory Sexual Misconduct Prevention trainings, workshops, and a campus wide awareness and preventive campaigns for all students, staff, and faculty.</p>
+            <hr>
+            <h2><center>Fostering an inclusive and diverse community</center></h2>
+            <p class="long-text">Ashesi is committed to creating a campus ethos that celebrates our rich diversity. To foster a welcoming campus environment that enhances learning, the ODIP helps to drive the campus agenda of promoting the awareness of, and the respect for diversity. This is achieved through various intentional cross-cultural programs and initiatives to aid in navigating challenges and exploring opportunities related to diversity and inclusion.</p>
+        </div>
+
+        <!-- <form method="POST" target="_self" class="book-form">
+            <div class="book-whole">
+                <div class ="book-div">
+                    <div class="column">
+                        <label>Full Name</label>
+                        <input type="text" id="fullName" name="fullName" class="form-control" value="<?php echo $UserName['fullName']; ?>"/>
+                        <span style="font-size:15px; margin-left:-3px;"><p style="color: red;"><?php if(isset($errors['Error_FullName'])) echo $errors['Error_FullName'];?></p></span>
+                        <br>
+                        <br>
+                        <label>Phone Number</label>
+                        <br>
+                        <input type="tel" id="number" placeholder="0200318547" name="number" class="form-control" value="<?php echo $UserPhone['number']; ?>"/>
+                        <span style="font-size:15px; margin-left:-5px; "><p style="color: red;"><?php if(isset($errors['Error_number'])) echo $errors['Error_number'];?></p></span>
+                    </div>
+                    <div class="column">
+                        <label>Date</label>
+                        <br>
+                        <input type="date" id="bookingDate" name="bookingDate" placeholder="yyyy-mm-dd" class="form-control"/>
+                        <span style="font-size:15px; margin-left:-1px;"><p style="color: red;"><?php if(isset($errors['Error_datepick'])) echo $errors['Error_datepick'];?></p></span>
+                        <br>
+                        <label>Time</label>
+                        <input style="font-size:25px;" type="text" id="bookingTime" name="bookingTime" placeholder="--:--"/>
+                        <span style="font-size:15px;margin-left:-1px; "><p style="color: red;"><?php if(isset($errors['Error_time'])) echo $errors['Error_time'];?></p></span>
+                        <br>
+                        <input type="submit" class="btn-primary" value="Submit" name = "save">
+
+                    </div> 
+
+                    <div class="column">
+                        <label>Select Tutor</label>
+                        <br>
+                            <select name = "tutor">
+                                <option>Any Tutor</option>
+                                <option value = "Papa Kobina">Papa Kobina</option>
+                                <option value = "Joshua Osei">Joshua Osei</option>
+                            </select>
+                    </div>
+                 </div>
+            </div> 
+            
+        </form> -->
+    </section>
+    <footer>
+        <div class="footer-whole">
+            <div class="container">
+                <div class="footer-div ">
+                    <section>
+                        <h4>Quick Links</h4>
+                        <a href="bookings.php">Bookings</a>
+                        <a href="resources.php">Resources</a>
+                    </section>
+                    <section>
+                        <h4>Developments</h4>
+                        <div class="media-links">
+                            <a href="https://teamweb2020.wordpress.com/" target="_blank"><i class="fa fa-wordpress"></i></a>
+                            <a href="https://github.com/AshWeb2020/ashweb20-team-team-o" target="_blank"><i class="fa fa-github"></i></a>
+                        </div>
+                    </section>
+                </div> 
+                <div class="Copy">
+                        <p>
+                            This webpage was created for the course "Web Development".
+                        </p>
+                        <p>
+                            Copyright &copy; 2020 by ODIP. All rights reserved
+                        </p>
+                </div>
+            </div>
+        </div>
+    </footer> 
+
+</body>
+</html>
+
+<!-- <?php 
+
+    include 'functions.php';
+    if(!isset($_SESSION["logged_in"])) {
+    header("Location:index.php");
+    }
+
+    //Initialization
+    $UserName['fullName'] = "";
+    $UserPhone['number'] = "";
+    if (isset($_POST['fullName'])) $UserName['fullName'] = htmlspecialchars($_POST['fullName']);
+    if (isset($_POST['number'])) $UserPhone['number'] = htmlspecialchars($_POST['number']);
+    
+?>
+ -->

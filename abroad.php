@@ -29,7 +29,7 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="staff.html">Staff</a>
+                        <a class="nav-link" href="html/staff.html">Staff</a>
                     </li>
                     <li class="nav-item onsite">
                         <a class="nav-link" href="abroad.php">Study Abroad</a>
@@ -38,7 +38,7 @@
                         <a class="nav-link" href="partner.php" >Partnerships</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="program.php">Programs</a>
+                        <a class="nav-link" href="html/program.html">Programs</a>
                     </li>
                 </ul>
                 </div>
@@ -53,8 +53,8 @@
         </div>        
     </section>
     
-    
-    <?php 
+    <div class="container">
+        <?php 
         $servername = "localhost";
         $username = "root";
         $password = "root";
@@ -89,16 +89,12 @@
                       </tr>';
         
             }
-
+            echo "</table>";  
         /*freeresultset*/
         $result->free();
         }
      ?>
-
-
-    <!-- <?php
-        include "register.php";                 
-    ?> -->
+    </div>
 
     <footer>
         <div class="footer-whole">

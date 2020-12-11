@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>3 0
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Office of Diversity & International Programs</title>
@@ -29,7 +29,7 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="staff.html">Staff</a>
+                        <a class="nav-link" href="html/staff.html">Staff</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="abroad.php">Study Abroad</a>
@@ -38,7 +38,7 @@
                         <a class="nav-link" href="partner.php" >Partnerships</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="program.php">Programs</a>
+                        <a class="nav-link" href="html/program.html">Programs</a>
                     </li>
                 </ul>
                 </div>
@@ -52,9 +52,8 @@
             <hr>
         </div>        
     </section>
-    
-    
-    <?php 
+    <div class="container">
+        <?php 
         $servername = "localhost";
         $username = "root";
         $password = "root";
@@ -90,18 +89,15 @@
                       </tr>';
         
             }
+            echo "</table>";
 
         /*freeresultset*/
         $result->free();
         }
      ?>
-
-
-    <!-- <?php
-        include "register.php";                 
-    ?> -->
-
-    <footer>
+    </div>
+    <section>
+        <footer>
         <div class="footer-whole">
             <div class="container">
                 <div class="footer-div ">
@@ -129,6 +125,9 @@
             </div>
         </div>
     </footer> 
+    </section>
+
+    
 
 </body>
 </html>

@@ -17,13 +17,14 @@ height: 100vh;
 }
 
 header{
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/abroad.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
   height: 70vh;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
 }
 h2:after {
+
     display: block;
     height: 2px;
     background-color: #d64747;
@@ -58,11 +59,21 @@ h1,h2,h3{
 .heading{
 padding: 50px;
 }
+.intro {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    /*left: 50%;*/
+    /*transform: translate(-63%,-60%);*/
+}
 
 /*.space{
   padding-bottom:60px;
 }
 */
+.content{
+  padding-top: 30px;
+}
 .center {
   text-align: center;
   padding: 20px;
@@ -72,7 +83,9 @@ padding: 50px;
   height: 50px;
   padding: 2px 10px;
 }
-
+.img{
+  width: 100%;
+}
 .icon-bar{
   background: darkorange;
 }

@@ -44,59 +44,63 @@
                 </div>
             </div>
         </nav>
+        <div class="intro">
+            <div class="container">
+                <h1 style="color: white;"><center>Fostering an Inclusive & Diverse Community</center></h1>
+                <p class="long-text" style="color: white;">Ashesi is committed to creating a campus ethos that celebrates our rich diversity. To foster a welcoming campus environment that enhances learning, the ODIP helps to drive the campus agenda of promoting the awareness of, and the respect for diversity. This is achieved through various intentional cross-cultural programs and initiatives to aid in navigating challenges and exploring opportunities related to diversity and inclusion.</p>
+            </div>
+        </div>
     </header>
     <section class="section-tutors js--section-features" id="section">
-        <div class="container">
-            <h2 style="margin-top: 30px;"><center>Study Abroad & Partners</center></h2>
-            <p class="long-text">All Ashesi students who wish to enroll in an International Exchange Program and transfer academic credit back to Ashesi MUST complete a Study Abroad Application (click here to access the form) and submit it to the Office of Diversity and International Programs by the program deadline at odip@ashesi.edu.gh.  Students should apply as early as possible, or they risk not obtaining a visa in time. </p>
-            <hr>
-        </div>        
+        <img src="img/program.JPG" class="img">     
     </section>
-    
-    
-    <?php 
-        $servername = "localhost";
-        $username = "root";
-        $password = "root";
-        $database = "AAF18942022";
-        $conn = mysqli_connect($servername, $username, $password, $database);
-        if (!$conn) {
-            die('Connection failed: ' . mysqli_connect_error());
-        }
-
-        $query = "SELECT * FROM Partnership";
-        echo "<b> <center>Study Abroad Partners</center> </b> <br> <br>";
-
-        echo '<table border="0" cellspacing="2" cellpadding="2"> 
-            <tr> 
-                <td> <font face="Arial"></font> </td> 
-                <td> <font face="Arial">Partners</font> </td> 
-                <td> <font face="Arial">Program</font> </td> 
-                <td> <font face="Arial"></font> </td>
-            </tr>';
-
-        if ($result = mysqli_query($conn, $query)) {
-
-            while ($row = $result->fetch_assoc()) {
-                $field1name = $row["partnership_id"];
-                $field2name = $row["partnership_name"];
-                $field3name = $row["program"];
-               
-
-                echo '<tr> 
-                        <td>'.$field1name.'</td> 
-                        <td>'.$field2name.'</td> 
-                        <td>'.$field3name.'</td>
-                      </tr>';
-        
-            }
-
-        /*freeresultset*/
-        $result->free();
-        }
-     ?>
-
-
+    <section>
+        <div class="container content">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Global Cofe Series</h5>
+                    <p class="card-text">The Global Café Series serves as a unique platform to celebrate and portray the rich cultures of the different nationalities represented on the campus through events and activities.</p>
+                    <a href="#" class="btn btn-dark">sign up</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">First Year Buddy Up Program</h5>
+                    <p class="card-text">Our Buddy Up Program pairs first-year students with continuing student coaches. Coaches guide freshers in transitioning from high school to the university culture, and in adjusting to the Ashesi University environment.</p>
+                    <a href="#" class="btn btn-dark">sign up</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="container content">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">The Campus Cohesion Fund</h5>
+                    <p class="card-text">This funding opportunity challenges all members of the community to find new ways to promote more inclusive practices in the classroom and across the campus in the form of collaborative events, activities, cultural celebrations, speaking engagements, etc.</p>
+                    <a href="#" class="btn btn-dark">Apply</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Host Family</h5>
+                    <p class="card-text">it gives international students the opportunity to expand their Ghanaian network by offering them a home away from home, and grant Ghanaian families the opportunity to learn about different countries and cultures through the international students they host.</p>
+                    <a href="#" class="btn btn-dark">sign up</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+     <br>
     <!-- <?php
         include "register.php";                 
     ?> -->

@@ -47,8 +47,8 @@
     </header>
     <section class="section-tutors js--section-features" id="section">
         <div class="container">
-            <h2 style="margin-top: 30px;"><center>Study Abroad & Partners</center></h2>
-            <p class="long-text">All Ashesi students who wish to enroll in an International Exchange Program and transfer academic credit back to Ashesi MUST complete a Study Abroad Application (click here to access the form) and submit it to the Office of Diversity and International Programs by the program deadline at odip@ashesi.edu.gh.  Students should apply as early as possible, or they risk not obtaining a visa in time. </p>
+            <h2 style="margin-top: 30px;"><center>Providing a Safe Campus Climate</center></h2>
+            <p class="long-text">Ashesi is a zero-tolerance sexual misconduct campus and is committed to providing a safe and conducive environment to learn and engage in meaningful work.  The ODIP ensures that all members of the community are aware of the institutional policies governing all forms of sexual abuse - sexual assault, nonconsensual sexual relationships and harassment - at Ashesi through mandatory Sexual Misconduct Prevention trainings, workshops, and a campus wide awareness and preventive campaigns for all students, staff, and faculty. </p>
             <hr>
         </div>        
     </section>

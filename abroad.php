@@ -67,12 +67,15 @@
         $query = "SELECT * FROM study_abroad";
         echo "<b> <center>Study Abroad Partners</center> </b> <br> <br>";
 
-        echo '<table border="0" cellspacing="2" cellpadding="2"> 
-            <tr> 
-                <td> <font face="Arial"></font> </td> 
-                <td> <font face="Arial">Partners</font> </td> 
-                <td> <font face="Arial">Program</font> </td> 
-            </tr>';
+         echo '<table class="table" border="0" cellspacing="2" cellpadding="2">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col"><font face="Arial">#</font></th>
+                  <th scope="col"><font face="Arial">Partners</font></th>
+                  <th scope="col"><font face="Arial">Program</font></th>
+                </tr>
+              </thead>';
+        
 
         if ($result = mysqli_query($conn, $query)) {
 

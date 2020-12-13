@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Register for Buddy up</title>
+    <title>Register for Cohesion Fund</title>
 
-    <link rel="stylesheet" type="text/css" href="../css/buddyUp.css">
+    <link rel="stylesheet" type="text/css" href="../css/cohesionFund.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -49,10 +49,10 @@
     <br>
     <div>
         <div class = "center">
-            <h2 >Volunteer for Buddy Up Program</h2>
+            <h2 >Apply for The Campus Cohesion Fund</h2>
         </div>
         <div class="area">
-            <form name="leoForm" class = "form-container form-row needs-validation" action="../buddyUp.php" method="POST" id="form">
+            <form name="leoForm" class = "form-container form-row needs-validation" action="../cohesionFund.php" method="POST" id="form">
                 <div class="form-group col-md-6">
                     <label>First Name</label>
                     <input type="text" class="form-control" id="fname" name="first" placeholder="first name" required>
@@ -101,9 +101,13 @@
                       <option value="MIS">MIS</option>
                     </select>
                 </div>
+                <div class="form-group col-md-6">
+                    <label>Project Name</label>
+                    <input type="text" class="form-control" id="pname" name = "pname" placeholder="project name" required>
+                </div>
                 <div class="form-group col-md-9">
-                    <label>Why buddy up?</label>
-                    <input type="text" class="form-control" name="desc" placeholder="Why buddy up?" >
+                    <label>Project Description</label>
+                    <input type="text" class="form-control" name="desc" placeholder="Add description of project" >
                 </div>
                 <button type="submit" class="btn btn-dark btn-block" name="submit" onclick="validation()">Submit</button>
             </form>

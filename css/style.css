@@ -40,20 +40,17 @@ h1,h2,h3{
 
 .long-text {
     text-align:center;
-    /*line-height: 145%;*/
     width:80%;
     margin-left:10%;
     margin-bottom: 60px;
     margin-top: 30px;
-    font-size: 25px;
+    font-size: 25%;
 }
-.intro {
+/*.intro {
     position: absolute;
     width: 100%;
     top: 20%;
-    /*left: 50%;*/
-    /*transform: translate(-63%,-60%);*/
-}
+}*/
 .heading{
 padding: 50px;
 }

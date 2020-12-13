@@ -12,17 +12,14 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-.header{
-height: 100vh;
-}
 
 header{
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-  height: 70vh;
+  height: 50vh;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
 }
+
 h2:after {
 
     display: block;
@@ -35,62 +32,8 @@ h2:after {
 
 h1,h2,h3{
     font-weight:300;
-    
-    /*text-transform:uppercase;*/
 }
 
-.long-text {
-    text-align:center;
-    line-height: 145%;
-    width:50%;
-    margin-left:25%;
-    /*margin-bottom: 30px;
-    font-weight: bold;*/
-}
-/*.navbar-style{
-   box-shadow: 0 5px 10px #efefef;
-  text-transform: uppercase;
-  
-}*/
-
-/*.navbar .navbar-nav .nav-item .nav-link:hover,.navbar .navbar-nav .nav-item .nav-link:active{
-  color: gold;
-}
-*/
-.heading{
-padding: 50px;
-}
-.intro {
-    position: absolute;
-    width: 100%;
-    top: 20%;
-    /*left: 50%;*/
-    /*transform: translate(-63%,-60%);*/
-}
-
-/*.space{
-  padding-bottom:60px;
-}
-*/
-.content{
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.center {
-  text-align: center;
-  padding: 20px;
-}
-
-.logo{
-  height: 50px;
-  padding: 2px 10px;
-}
-.img{
-  width: 100%;
-}
-.icon-bar{
-  background: darkorange;
-}
 li{
     margin-left: 20px;
 }
@@ -117,6 +60,62 @@ li a:hover,
 li a:visited {
     border-bottom: 3px solid #fff;
 }
+
+.long-text {
+    text-align:center;
+    line-height: 145%;
+    width:50%;
+    margin-left:25%;
+}
+
+.heading{
+padding: 50px;
+}
+.intro {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+}
+
+.content{
+  padding-top: 30px;
+}
+.center {
+  text-align: center;
+  padding: 50px;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  /*background-color: #800000;*/
+  margin-bottom: 0px;
+  /*color: #686868;*/
+}
+
+.logo{
+  height: 50px;
+  padding: 2px 10px;
+}
+.img{
+  width: 100%;
+}
+
+.area{
+    width: 50%;
+    margin: auto;
+}
+
+.icon-bar{
+  background: darkorange;
+}
+.form-container{
+  position: relative;
+  top: 15vh;
+  margin-top: 0px;
+  margin-bottom: 250px;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.212);
+  
+}
+
 
 footer{
     background-color:#923d41;
@@ -167,3 +166,5 @@ section .media-links{
 .Copy p{
     margin-bottom: 20px;
 }
+
+

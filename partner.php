@@ -85,7 +85,7 @@
 
                 echo '<tr> 
                         <td>'.$field1name.'</td> 
-                        <td><a href="https://www.coe.edu/">'.$field2name.'</a></td> 
+                        <td>'.$field2name.'</td> 
                         <td>'.$field3name.'</td>
                       </tr>';
         
@@ -95,6 +95,7 @@
         /*freeresultset*/
         $result->free();
         }
+    mysqli_close($conn);
      ?>
     </div>
     <section>

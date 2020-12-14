@@ -1,3 +1,4 @@
+
 create schema AAF18942022;
 
 use AAF18942022;
@@ -12,14 +13,14 @@ position varchar(100)
 
 create table Study_abroad(
 abroad_id int auto_increment primary key not null,
-partner_name varchar(50) not null,
-program varchar(50) not null
+partner_name varchar(100) not null,
+program varchar(100) not null
 );
 
 create table Partnership(
 partnership_id int auto_increment primary key not null,
 partnership_name varchar (100) not null,
-program varchar (50) not null
+program varchar (100) not null
 );
 
 Create table globalCafe(

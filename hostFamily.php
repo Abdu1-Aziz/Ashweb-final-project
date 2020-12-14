@@ -19,7 +19,7 @@
     		die('Connection failed: ' . mysqli_connect_error());
 		}
 
-		$sql = "INSERT INTO hostFamily(fname, lname, gender, email, phone, class, course, country, hometown, family_name, description) VALUES ('$Fname', '$Lname', '$Sex', '$Mail', '$Phone', '$Year', '$Course', '$country', '$Hometown', '$Family_name','$Description')";
+		$sql = "INSERT INTO hostFamily(fname, lname, gender, email, phone, class, course, country, hometown, family_name, description) VALUES ('$Fname', '$Lname', '$Sex', '$Mail', '$Phone', '$Year', '$Course', '$Country', '$Hometown', '$Family_name','$Description')";
 
 		if (mysqli_query($conn, $sql)){
 			echo("<script>alert('Registration was successful!')</script>");
@@ -28,5 +28,5 @@
 			echo "Error with query";
 		}
  }
-
+mysqli_close($conn);
 ?>

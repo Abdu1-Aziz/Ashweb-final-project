@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>3 0
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Office of Diversity & International Programs</title>
@@ -96,6 +96,7 @@
         /*freeresultset*/
         $result->free();
         }
+        mysqli_close($conn);
      ?>
     </div>
 

@@ -25,6 +25,7 @@
 		}else{
 			echo "Error with query";
 		}
+	mysqli_close($conn);
  }
 
 ?>

@@ -52,3 +52,4 @@ function CheckMail(mail){
     return /^[a-z]+\.[a-z]+@ashesi\.edu\.gh$/.test(mail);
 
 }
+

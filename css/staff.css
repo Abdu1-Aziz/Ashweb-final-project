@@ -17,7 +17,7 @@ height: 100vh;
 }
 
 header{
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/lead.JPG);
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/lead.jpg);
   height: 50vh;
   background-size: cover;
   background-attachment: fixed;

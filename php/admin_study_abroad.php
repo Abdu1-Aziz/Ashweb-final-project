@@ -21,14 +21,14 @@
         <?php 
             $servername = "localhost";
             $username = "root";
-            $password = "root";
+            $password = getenv('MYSQLPASS')??"";
             $database = "AAF18942022";
             $conn = mysqli_connect($servername, $username, $password, $database);
             if (!$conn) {
                 die('Connection failed: ' . mysqli_connect_error());
             }
 
-            $query = "SELECT * FROM study_abroad";
+            $query = "SELECT * FROM Study_abroad";
             echo "<b> <center>Study Abroad Partners</center> </b> <br> <br>";
 
              echo '<table class="table" border="0" cellspacing="2" cellpadding="2">

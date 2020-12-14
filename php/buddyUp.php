@@ -10,8 +10,8 @@
 		$Course = $_POST['course'];
 		$Description = $_POST['desc'];
 
-
-		$conn = mysqli_connect('localhost', 'root', 'root', 'AAF18942022');
+		$dbpassword = getenv('MYSQLPASS')??"";
+		$conn = mysqli_connect('localhost', 'root', $dbpassword, 'AAF18942022');
 		if (!$conn) {
     		die('Connection failed: ' . mysqli_connect_error());
 		}

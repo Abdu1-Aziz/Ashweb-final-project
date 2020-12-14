@@ -56,7 +56,7 @@
         <?php 
         $servername = "localhost";
         $username = "root";
-        $password = "root";
+        $password = getenv('MYSQLPASS')??"";
         $database = "AAF18942022";
         $conn = mysqli_connect($servername, $username, $password, $database);
         if (!$conn) {

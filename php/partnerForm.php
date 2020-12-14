@@ -3,7 +3,8 @@ if(isset($_POST['submit'])){
 	$partner = $_POST['partner'];
 	$program = $_POST['program'];
 
-	$conn = mysqli_connect('localhost', 'root', 'root' , 'AAF18942022');
+	$dbpassword = getenv('MYSQLPASS')??"";
+	$conn = mysqli_connect('localhost', 'root', $dbpassword, 'AAF18942022');
 
 	// check connection
 	if (!$conn) {

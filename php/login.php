@@ -3,7 +3,7 @@
 if(isset($_POST['login'])){
     $servername = "localhost";
     $username = "root";
-    $dbpassword = "root";
+    $dbpassword = getenv('MYSQLPASS')??"";
     $dbname = "AAF18942022";
     $conn = mysqli_connect($servername, $username, $dbpassword, $dbname);
     

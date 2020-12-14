@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Office of Diversity & International Programs</title>
-    <link rel="stylesheet" type="text/css" href="css/partner.css">
+    <link rel="stylesheet" type="text/css" href="../css/partner.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -21,15 +21,15 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-icon" aria-controls="menu-icon" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a href="index.html"><img class="logo" src="img/ashesiLogo.png" alt="Ashesi Logo"></a>
+                    <a href="../index.html"><img class="logo" src="../img/ashesiLogo.png" alt="Ashesi Logo"></a>
                 </div>
                 <div class="collapse navbar-collapse" id="menu-icon">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="html/staff.html">Staff</a>
+                        <a class="nav-link" href="../html/staff.html">Staff</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="abroad.php">Study Abroad</a>
@@ -38,7 +38,7 @@
                         <a class="nav-link" href="partner.php" >Partnerships</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="html/program.html">Programs</a>
+                        <a class="nav-link" href="../html/program.html">Programs</a>
                     </li>
                 </ul>
                 </div>

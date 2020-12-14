@@ -34,7 +34,7 @@ h2:after {
  }
 
 h1,h2,h3{
-    /*font-weight:300;*/
+    font-weight:300;
     /*text-transform:uppercase;*/
 }
 
@@ -44,13 +44,17 @@ h1,h2,h3{
     margin-left:10%;
     margin-bottom: 60px;
     margin-top: 30px;
-    font-size: 25%;
+    font-size: 25px;
 }
-/*.intro {
+.intro {
     position: absolute;
     width: 100%;
     top: 20%;
-}*/
+}
+
+.aziz{
+    margin-left: 150px;
+}
 .heading{
 padding: 50px;
 }

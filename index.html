@@ -54,7 +54,9 @@
                 </center>
             </div>
         </div>
-        <a class="ct-btn-scroll ct-js-btn-scroll" href="#section"><img alt="Arrow Down Icon" src="https://raw.githubusercontent.com/solodev/scroll-down-anchor/master/images/arrow-down-1.png"></a>
+        <div class="aziz">
+            <a class="ct-btn-scroll ct-js-btn-scroll" href="#section"><img alt="Arrow Down Icon" src="https://raw.githubusercontent.com/solodev/scroll-down-anchor/master/images/arrow-down-1.png"></a>
+        </div>
     </header>
     <section class="section-tutors js--section-features" id="section">
         <div class="container">
@@ -67,48 +69,6 @@
             <h2><center>Fostering an inclusive & diverse community</center></h2>
             <p class="long-text">Ashesi is committed to creating a campus ethos that celebrates our rich diversity. To foster a welcoming campus environment that enhances learning, the ODIP helps to drive the campus agenda of promoting the awareness of, and the respect for diversity. This is achieved through various intentional cross-cultural programs and initiatives to aid in navigating challenges and exploring opportunities related to diversity and inclusion.</p>
         </div>
-
-        <!-- <form method="POST" target="_self" class="book-form">
-            <div class="book-whole">
-                <div class ="book-div">
-                    <div class="column">
-                        <label>Full Name</label>
-                        <input type="text" id="fullName" name="fullName" class="form-control" value="<?php echo $UserName['fullName']; ?>"/>
-                        <span style="font-size:15px; margin-left:-3px;"><p style="color: red;"><?php if(isset($errors['Error_FullName'])) echo $errors['Error_FullName'];?></p></span>
-                        <br>
-                        <br>
-                        <label>Phone Number</label>
-                        <br>
-                        <input type="tel" id="number" placeholder="0200318547" name="number" class="form-control" value="<?php echo $UserPhone['number']; ?>"/>
-                        <span style="font-size:15px; margin-left:-5px; "><p style="color: red;"><?php if(isset($errors['Error_number'])) echo $errors['Error_number'];?></p></span>
-                    </div>
-                    <div class="column">
-                        <label>Date</label>
-                        <br>
-                        <input type="date" id="bookingDate" name="bookingDate" placeholder="yyyy-mm-dd" class="form-control"/>
-                        <span style="font-size:15px; margin-left:-1px;"><p style="color: red;"><?php if(isset($errors['Error_datepick'])) echo $errors['Error_datepick'];?></p></span>
-                        <br>
-                        <label>Time</label>
-                        <input style="font-size:25px;" type="text" id="bookingTime" name="bookingTime" placeholder="--:--"/>
-                        <span style="font-size:15px;margin-left:-1px; "><p style="color: red;"><?php if(isset($errors['Error_time'])) echo $errors['Error_time'];?></p></span>
-                        <br>
-                        <input type="submit" class="btn-primary" value="Submit" name = "save">
-
-                    </div> 
-
-                    <div class="column">
-                        <label>Select Tutor</label>
-                        <br>
-                            <select name = "tutor">
-                                <option>Any Tutor</option>
-                                <option value = "Papa Kobina">Papa Kobina</option>
-                                <option value = "Joshua Osei">Joshua Osei</option>
-                            </select>
-                    </div>
-                 </div>
-            </div> 
-            
-        </form> -->
     </section>
     <footer>
         <div class="footer-whole">
@@ -141,19 +101,3 @@
 
 </body>
 </html>
-
-<!-- <?php 
-
-    include 'functions.php';
-    if(!isset($_SESSION["logged_in"])) {
-    header("Location:index.php");
-    }
-
-    //Initialization
-    $UserName['fullName'] = "";
-    $UserPhone['number'] = "";
-    if (isset($_POST['fullName'])) $UserName['fullName'] = htmlspecialchars($_POST['fullName']);
-    if (isset($_POST['number'])) $UserPhone['number'] = htmlspecialchars($_POST['number']);
-    
-?>
- -->

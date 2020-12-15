@@ -12,7 +12,7 @@
 		$Description = $_POST['desc'];
 
 		$dbpassword = getenv('MYSQLPASS')??"";
-		$conn = mysqli_connect('localhost', $dbpassword, 'root', 'AAF18942022');
+		$conn = mysqli_connect('localhost', 'root', $dbpassword, 'AAF18942022');
 		if (!$conn) {
     		die('Connection failed: ' . mysqli_connect_error());
 		}

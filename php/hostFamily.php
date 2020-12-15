@@ -23,7 +23,7 @@
 
 		if (mysqli_query($conn, $sql)){
 			echo("<script>alert('Registration was successful!')</script>");
- 			echo("<script>window.location = 'html/program.html';</script>");
+ 			echo("<script>window.location = '../html/program.html';</script>");
 		}else{
 			echo "Error with query";
 		}

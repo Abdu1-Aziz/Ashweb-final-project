@@ -19,7 +19,7 @@ if(isset($_POST['login'])){
     $row = mysqli_fetch_assoc($result);
     // $pass = password_verify($user_password, $row['user_password']);
     if ($user_password === $row['user_password']){
-        header("Location: html/admin.html");
+        header("Location: ../html/admin.html");
     }else{
         echo "<script>alert('Login Failure'); location.href='admin_login.php';</script> "; 
         

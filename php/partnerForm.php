@@ -18,7 +18,7 @@ if(isset($_POST['submit'])){
 		header('location: admin_partner.php');
 		exit(0);
 	}else{
-		echo'Aziz';
+		echo'error';
 	}
 	mysqli_close($conn);
 }
